@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "status": "Client",
+    "addedAt": "2020-09-23"
+  },
+  {
+    "id": 2,
+    "status": "Client",
+    "addedAt": "2020-09-23"
+  },
+  {
+    "id": 3,
+    "status": "Client",
+    "addedAt": "2020-09-23"
+  },
+  {
+    "id": 4,
+    "status": "Client",
+    "addedAt": "2020-09-23"
+  }
+]
