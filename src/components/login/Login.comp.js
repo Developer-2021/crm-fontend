@@ -1,8 +1,14 @@
 import React from "react";
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 import { Container, Row, Col, Form, Button } from "react-bootstrap";
 
-export const LoginForm = ({handleOnChange, handleOnSubmit, formSwitcher, email, pass}) => {
+export const LoginForm = ({
+  handleOnChange,
+  handleOnSubmit,
+  formSwitcher,
+  email,
+  pass,
+}) => {
   return (
     <Container>
       <Row>
@@ -18,7 +24,6 @@ export const LoginForm = ({handleOnChange, handleOnSubmit, formSwitcher, email, 
                 value={email}
                 onChange={handleOnChange}
                 placeholder="Ente Email"
-                
               />
             </Form.Group>
             <Form.Group>
@@ -29,7 +34,6 @@ export const LoginForm = ({handleOnChange, handleOnSubmit, formSwitcher, email, 
                 value={pass}
                 onChange={handleOnChange}
                 placeholder="password"
-                
               />
             </Form.Group>
             <Button type="submit">Login</Button>
@@ -39,9 +43,13 @@ export const LoginForm = ({handleOnChange, handleOnSubmit, formSwitcher, email, 
       </Row>
       <Row>
         <Col>
-          <a href="#!" onClick={()=>formSwitcher('signUp')}>Sign Up</a>
+          <a href="#!" onClick={() => formSwitcher("signUp")}>
+            Sign Up
+          </a>
           <br></br>
-          <a href="#!" onClick={()=>formSwitcher('reset')}>Forget Passwod</a>
+          <a href="#!" onClick={() => formSwitcher("reset")}>
+            Forget Passwod
+          </a>
         </Col>
       </Row>
     </Container>
@@ -53,5 +61,5 @@ LoginForm.prototype = {
   handleOnSubmit: PropTypes.func.isRequired,
   formSwitcher: PropTypes.func.isRequired,
   email: PropTypes.string.isRequired,
-  pass: PropTypes.string.isRequired
-}
+  pass: PropTypes.string.isRequired,
+};

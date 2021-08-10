@@ -23,7 +23,9 @@ export const TicketTable = ({ tickets }) => {
           ))
         ) : (
           <tr>
-            <td colSpan="4" className="text-center">No ticket show</td>
+            <td colSpan="4" className="text-center">
+              No ticket show
+            </td>
           </tr>
         )}
       </tbody>

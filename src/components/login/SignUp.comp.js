@@ -57,7 +57,9 @@ export const SignUpForm = ({
       </Row>
       <Row>
         <Col>
-          <a href="#!" onClick={()=>formSwitcher('login')}>Sign In</a>
+          <a href="#!" onClick={() => formSwitcher("login")}>
+            Sign In
+          </a>
         </Col>
       </Row>
     </Container>
