@@ -1,6 +1,5 @@
 .default-layout {
   display: grid;
-  grid-template-rows: 80px auto 3rem;
   grid-template-areas: "header" "main" "footer";
 }
 

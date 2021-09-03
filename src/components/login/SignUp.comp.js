@@ -24,7 +24,7 @@ export const SignUpForm = ({
                 name="email"
                 value={email}
                 onChange={handleOnChange}
-                placeholder="Ente Email"
+                placeholder="Entr Email"
               />
             </Form.Group>
 

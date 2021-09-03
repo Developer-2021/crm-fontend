@@ -1,9 +1,9 @@
 import { React } from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import { TicketTable } from "../../components/ticket-table/TicketTable.comp";
-import tickets from "../../assets/data/dummy-tickets.json";
-
 import { PageBreadcrumb } from "../../components/breadcrumb/Breadcrumb.comp";
+
+import tickets from "../../assets/data/dummy-tickets.json";
 
 export const Dashboard = () => {
   return (
